@@ -1,0 +1,9 @@
+For vCount = 0 to NoOfTables()-1
+	Let vTableName = TableName($(vCount));
+	Store [$(vTableName)] INTO [$(v_Destino)$(vTableName).qvd] (qvd);
+Next vCount;
+
+For vCount = 0 to NoOfTables() - 1
+	Let vTableName = TableName(0);
+	Drop Table [$(vTableName)];
+Next vCount;

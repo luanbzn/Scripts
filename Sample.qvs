@@ -1,0 +1,10 @@
+SUB SampleData()
+
+    [Sample Table]:
+    LOAD 
+        1 + IterNo()
+    AutoGenerate 1 
+    While 1 + IterNo() <= 10;
+
+END SUB
+
