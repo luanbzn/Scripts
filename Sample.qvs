@@ -1,4 +1,4 @@
-SUB SampleData()
+SUB SampleData
     [Sample Table]:
     LOAD 
         1 + IterNo() - 1
